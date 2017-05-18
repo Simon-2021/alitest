@@ -5,6 +5,6 @@ var app = http.createServer(function(req, res){
     res.writeHead(200,{'Content-Type':'text/html'});
     res.write('<h1>你是不是傻</h1>');
     res.end();
-}).listen(3002,'119.23.254.236',function(){
+}).listen(3002,'172.18.77.43',function(){
     console.log('Server is created at port 3002.');
 });
